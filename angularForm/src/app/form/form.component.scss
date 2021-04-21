@@ -1,0 +1,33 @@
+@import url("https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css");
+.ng-valid[required],
+.ng-valid.required {
+    border-left: 5px solid #42a948; /* green */
+}
+
+.ng-invalid:not(form) {
+    border-left: 5px solid #a94442; /* red */
+}
+
+.ng-personForm{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ng-center{
+    text-align: center;
+}
+
+.btn-space{
+    margin: 0 10px 0 10px !important;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70% ;
+}
+
+.ng-title{
+    margin-top: 10%;
+}
